@@ -1,3 +1,9 @@
+# Task: 
+https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rslang/english-for-kids.md
+
+# Deploy: 
+https://rolling-scopes-school.github.io/max7290599-JSFE2021Q1/english-for-kids/
+
 # Empty project template
 Empty project with configured webpack, typescript and es-lint
 
