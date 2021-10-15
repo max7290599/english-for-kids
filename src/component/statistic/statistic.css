@@ -1,0 +1,66 @@
+.statistic {
+  margin-top: 50px;
+}
+
+.statistics table {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.table {
+border-collapse: collapse;
+  color: #686461;
+  width: 100%;
+  box-shadow: 3px 3px 15px 2px rgb(138 83 0 / 25%), -3px -3px 15px 2px rgb(138 83 0 / 22%);
+  word-break: break-word;
+}
+
+td,
+th {
+  height: 36px;
+  padding: 6px;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+tr:nth-child(even) {
+  background: #e8e6d1;
+}
+
+@media (max-width: 1360px) {
+  td,
+  th {
+    padding: 8px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  td,
+  th {
+    padding: 6px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1rem;
+  }
+}
+
+@media (max-width: 414px) {
+  td,
+  th {
+    padding: 3px;
+    font-size: .6rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: .6rem;
+  }
+}

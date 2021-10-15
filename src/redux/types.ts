@@ -1,0 +1,3 @@
+export const CHANGE_TRAIN = 'CHANGE_TRAIN';
+export const GET_ACTIVE_CATEGORY = 'GET_ACTIVE_CATEGORY';
+export const REMOVE_CARD = 'REMOVE_CARD';

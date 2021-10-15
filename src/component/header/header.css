@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    max-width: 1350px;
+    margin: 40px auto 0;
+} 
+
+.header-item {
+	font-family: Roboto;
+	padding: 10px;
+	margin: 0 0 0 60px;
+	color: #ffffff;
+	min-width: 145px;
+	text-align: left;
+}
+
+.header-item.active {
+	text-decoration: underline;
+}
+
+@media (max-width: 1430px) {
+	.header {
+			max-width: 1000px;
+	}
+}
+
+@media (max-width: 1080px) {
+	.header {
+			max-width: 650px;
+	}
+}
+
+@media (max-width: 730px) {
+	.header {
+			max-width: 300px;
+	}
+}

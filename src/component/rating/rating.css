@@ -1,0 +1,46 @@
+.rating {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  height: 40px;
+  overflow-x: hidden;
+  line-height: 36px;
+  font-size: 36px;
+  color: #fc6262;
+}
+
+.star-error, .star-succes {
+  flex-shrink: 0;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+}
+
+.star-error {
+  background-image: url('../../../public/img/star.svg');
+}
+
+.star-succes {
+  background-image: url('../../../public/img/star-win.svg');
+}
+
+.win {
+  background-image: url('../../../public/img/success.jpg');
+    background-repeat: no-repeat;
+    height: 481px;
+    background-position-x: center;
+}
+
+.error {
+  background-image: url('../../../public/img/failure.jpg');
+    background-repeat: no-repeat;
+    height: 481px;
+    background-position-x: center;
+}
+
+.center-content {
+  justify-content: center;
+}

@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a { 
+    text-decoration: none;
+} 
+
+html {
+	font-size: 20px;
+}
+
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center 180px;
+	overflow-x: hidden;
+	font-family: Roboto;
+}
+
+main {
+	min-height: 100vh;
+}
+
+@media (max-width: 1080px) {
+	.header {
+			max-width: 650px;
+	}
+}
+
+@media (max-width: 1430px) {
+	.header {
+			max-width: 1000px;
+	}
+}
+
+@media (max-width: 730px) {
+	.header {
+			max-width: 300px;
+	}
+}
